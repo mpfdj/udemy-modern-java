@@ -5,10 +5,14 @@
     <groupId>jaeger.de.miel</groupId>
     <artifactId>udemy-modern-java</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>udemy-modern-java</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>explore-latest-java-features</module>
+        <module>checkout-service</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
