@@ -12,10 +12,13 @@
     <modules>
         <module>explore-latest-java-features</module>
         <module>checkout-service</module>
+        <module>modules</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>6.0.2</junit.version>
+        <jackson.version>2.21.0</jackson.version>
     </properties>
 
 
@@ -26,6 +29,7 @@
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-api</artifactId>
+                <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
 
@@ -33,6 +37,7 @@
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-engine</artifactId>
+                <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
 
@@ -40,17 +45,35 @@
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-params</artifactId>
+                <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
+
+
+
         </dependencies>
     </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>RELEASE</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- JSON -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
