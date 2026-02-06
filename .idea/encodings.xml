@@ -2,11 +2,19 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/checkout-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/checkout-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/checkout-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/checkout-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/explore-latest-java-features/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/explore-latest-java-features/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modulefour/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modulefour/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/moduleone/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/moduleone/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modulethree/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modulethree/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/moduletwo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/moduletwo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
